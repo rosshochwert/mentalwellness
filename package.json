@@ -1,0 +1,22 @@
+{
+  "name": "mentalwellness",
+  "version": "1.0.0",
+  "description": "\"# mentalwellness\"",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rosshochwert/mentalwellness.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rosshochwert/mentalwellness/issues"
+  },
+  "homepage": "https://github.com/rosshochwert/mentalwellness#readme",
+  "dependencies": {
+    "netlify-cli": "^2.65.7"
+  }
+}

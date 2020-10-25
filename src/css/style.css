@@ -1,0 +1,93 @@
+* {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+.headerFont{
+	font-size: 19px;
+	line-height: 24px;
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	color: #FFFFFF !important;
+}
+
+.heroFont{
+	font-family: 'Patua One', cursive;
+	color: #FFFFFF;
+	font-weight: 400 !important;
+}
+
+.titleText{
+		padding-top: 111px;
+		font-size: 32px;
+		line-height: 40px;
+		color: #293B74;
+		font-family: 'Patua One', cursive;
+}
+
+.howTitleText{
+	padding-top: 111px;
+		font-size: 32px;
+		line-height: 40px;
+		color: #FFFFFF;
+		font-family: 'Patua One', cursive;
+}
+
+.backgroundImage{
+	background-image: url("/img/background.jpg");
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+.formFun{
+	box-sizing: border-box;
+  height: 40px;
+  max-width: 372px;
+  border: 1px solid #DBDBDB;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+
+
+
+
+
+/*Animated*/
+
+.ml6 {
+  position: relative;
+  font-weight: 900;
+  font-size: 3.3em;
+}
+
+@media (max-width: 767px){
+.ml6 {
+  position: relative;
+  font-weight: 900;
+  font-size: 2.0em;
+}
+.mobilePadding{
+	height: 32px;
+}
+}
+
+.ml6 .text-wrapper {
+  position: relative;
+/*  display: inline-block;
+*/  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml6 .letter {
+  display: inline-block;
+  line-height: 1em;
+  color: #2980b9;
+  opacity:0;
+  text-align: right;
+}
