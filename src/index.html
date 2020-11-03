@@ -21,9 +21,11 @@
   <meta property="og:image" content="" />
   <meta name="description" content="" />
 
-  <link rel="stylesheet" href="css/style.css?v=1.0">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
 
 
 
@@ -31,42 +33,54 @@
 
 <body>
 
-<div class="navbar navbar-light navbar-expand-lg fixed-top bg-light">
+<div class="navbar navbar-light navbar-expand-lg fixed-top bg-light p-4 shadow">
   <div class="container">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand headerFont" href="#">
           Opal
         </a>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+         <ul class="navbar-nav">
+          <a class="nav-link" href=""></a>
+            <a class="nav-link" href="/#offer">How It Works</a>
+            <a class="nav-link" href="/#join">About</a>
+        </ul>
+        </div>
+        <div>
+          <button class="btn joinButton">Join Now</button>
+        </div>
         <button class="navbar-toggler toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-         <ul class="mr-auto"></ul>
-        <ul class="navbar-nav">
-            <a class="nav-link active" href="#">Home</a>
-            <a class="nav-link" href="/#offer">What We Offer</a>
-            <a class="nav-link" href="/#join">Join Us</a>
-        </ul>
-      </div>
       </div>
 </div>
 
 <div style="height:50px"></div>
 
 <div class="backgroundImage" style="height:700px;">
-  <div class="container d-flex align-items-center h-100" style="max-width: 900px;">
-    <div id="intro" class="">
+  <div class="container d-flex align-items-center h-100" style="max-width: 1200px;">
+    <div class="row">
+      <div class="col-12">
+    <div id="intro">
       <div class="ml6">
-        We're on a mission to create more <span class="text-wrapper"><span class="letters"></span></span>
-      </div>
-      <br />
-      <br />
-      <div style="height:50px;"></div>
-      <div class="d-flex align-items-end justify-content-center">
-       <button type="button" class="btn btn-lg btn-primary"><a href="/#join" style="color: white">Join the waitlist</a></button>
-
+        We're on a mission to create
+        <div class="heroWord">
+          <div class="text-wrapper"><span class="letters"></span></div>
+        </div>
       </div>
     </div>
+    <div class="descriptionText">
+      Opal is a one-of-a kind, <b>physical space</b> designed to support your mental wellbeing.
+      <div class="joinSection">
+        <br />
+        <button class="btn joinButton">Join Now</button>
+      </div>
+    </div>
+    <div class="col-2">
+
+    </div>
   </div>
+  </div>
+</div>
 </div>
 
 

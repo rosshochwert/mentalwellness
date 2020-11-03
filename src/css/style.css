@@ -1,15 +1,54 @@
 * {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat', sans-serif !important;
 }
 
 
 .headerFont{
-	font-size: 19px;
-	line-height: 24px;
+	font-size: 48px !important;
+	line-height: 32px !important;
 	font-family: 'Barlow Semi Condensed', sans-serif;
-	color: #FFFFFF !important;
+}
+
+.shadow{
+	box-shadow: 10px 10px 8px #888888;
+}
+
+.joinButton {
+	border-radius: 100px;
+	height: 50px;
+	background-color: #004ebb;
+	width: 180px;
+	line-height: 25px;
+	color:white;
+	font-size: 24px;
+}
+
+.heroWord{
+	border-bottom: 2px solid #2980b9;
+	width: 60%;
+}
+
+.joinSection{
+}
+
+
+@media (max-width: 767px){
+.joinButton {
+	width: 120px;
+	font-size: 18px;
+}
+
+.heroWord{
+	border-bottom: 2px solid #2980b9;
+	width: 70%;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
 }
 
 .heroFont{
@@ -19,11 +58,11 @@
 }
 
 .titleText{
-		padding-top: 111px;
-		font-size: 32px;
-		line-height: 40px;
-		color: #293B74;
-		font-family: 'Patua One', cursive;
+	padding-top: 111px;
+	font-size: 32px;
+	line-height: 40px;
+	color: #293B74;
+	font-family: 'Patua One', cursive;
 }
 
 .howTitleText{
@@ -35,13 +74,17 @@
 }
 
 .backgroundImage{
-	background-image: url("/img/background.jpg");
+	background-image: url("/img/background4.jpg");
 	background-position: center center;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
-
+.descriptionText{
+	margin-top: 50px;
+	max-width: 600px;
+	font-size: 24px;
+}
 .formFun{
 	box-sizing: border-box;
   height: 40px;
@@ -57,14 +100,20 @@
 
 
 /*Animated*/
+.letters {
+	font-family: 'Homemade Apple', cursive !important;
+}
 
 .ml6 {
   position: relative;
   font-weight: 900;
-  font-size: 3.3em;
+  font-size: 2.9em;
 }
 
 @media (max-width: 767px){
+	#intro{
+		text-align: center;
+	}
 .ml6 {
   position: relative;
   font-weight: 900;
@@ -77,11 +126,8 @@
 
 .ml6 .text-wrapper {
   position: relative;
-/*  display: inline-block;
-*/  padding-top: 0.2em;
-  padding-right: 0.05em;
-  padding-bottom: 0.1em;
   overflow: hidden;
+  text-align: center;
 }
 
 .ml6 .letter {
@@ -90,4 +136,5 @@
   color: #2980b9;
   opacity:0;
   text-align: right;
+  font-family: 'Homemade Apple', cursive !important;
 }
