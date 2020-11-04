@@ -30,7 +30,30 @@
 	width: 60%;
 }
 
-.joinSection{
+.whyOpal{
+	text-align: left;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	color:#2980b9;
+}
+
+.opalDifCenter{
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	color:#2980b9;
+}
+
+.opalDifferent{
+	text-align: left;
+	max-width: 800px;
+	font-size: 20px;
+}
+
+.offerTitles{
+	text-align: center;
+	color:#2980b9;
+	font-weight: 600;
 }
 
 
@@ -80,6 +103,17 @@
 	background-repeat: no-repeat;
 }
 
+.backgroundImageWhy{
+	background-image: url("/img/randomlines.png");
+	background-position: 0px -900px;
+	background-size: auto;
+	background-repeat: no-repeat;
+}
+
+.topJoin, .topJoin:hover{
+	color:white;
+}
+
 .descriptionText{
 	margin-top: 50px;
 	max-width: 600px;
@@ -111,6 +145,9 @@
 }
 
 @media (max-width: 767px){
+	.backgroundImageWhy{
+	background-position: -100px -200px;
+}
 	#intro{
 		text-align: center;
 	}
