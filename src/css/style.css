@@ -59,16 +59,20 @@
 
 @media (max-width: 767px){
 .joinButton {
-	width: 120px;
+	width: 130px;
 	font-size: 18px;
 }
 
 .heroWord{
 	border-bottom: 2px solid #2980b9;
-	width: 70%;
+	width: 80%;
 	text-align: center;
 	margin-right: auto;
 	margin-left: auto;
+}
+
+.mobileLogo{
+	height: 75px;
 }
 
 
